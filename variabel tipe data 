@@ -1,0 +1,425 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOdz7xNik+BZnEqCJISowt9",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/YuzuMallzz/Algoritma-Pemrograman/blob/main/variabel%20tipe%20data%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "7O29NQZfVzdb"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# VARIABEL PYTHON\n",
+        "\n",
+        "Int = digunakan untuk mendeklarasikan angka (1-9).\n",
+        "\n",
+        "String = digunakan untuk mendeklarasikan sebuah (a-z) dan tanda baca, string juga memiliki tanda petik (') pada value/nilainya.\n",
+        "\n",
+        "Float = digunakan untuk mendeklarasikan decimal (1,5 1,7 4,0 3,14)."
+      ],
+      "metadata": {
+        "id": "NtD1sCZnWA0T"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#contoh 1\n",
+        "\n",
+        "a=4\n",
+        "b=8\n",
+        "c=a+b\n",
+        "\n",
+        "print(c)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "cmuotiUGWCXt",
+        "outputId": "7a9b01f5-93bc-459c-bc95-ed86406d4d11"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "12\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Pada contoh pertama dijelaskan pejumlahan dalam bentuk Int, yaitu pendeklarasian dalam bentuk angka (1-9)."
+      ],
+      "metadata": {
+        "id": "CsbIBRryWRW6"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "#contoh 2\n",
+        "\n",
+        "a= 'A'\n",
+        "b='kmal'\n",
+        "c=a+b\n",
+        "\n",
+        "print(c)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ZBDhGjROWTG5",
+        "outputId": "837b84e7-2ec6-4892-8cb1-547796a76ccb"
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Akmal\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Pada contoh kedua dijelaskan penjumlahan dalam bentuk str, yaitu pendeklarasian bentuk huruf (a-z) dan tanda baca. penggunaan string ditandai dengan penggunaan tanda kutip (')."
+      ],
+      "metadata": {
+        "id": "3XXX_cwBWz6Q"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "#contoh 3\n",
+        "\n",
+        "a=1.3\n",
+        "b=1.4\n",
+        "c=a+b\n",
+        "\n",
+        "print(c)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ypWPFqsAW0nj",
+        "outputId": "f28c9e0a-06aa-464f-9025-5d8ea8ea206e"
+      },
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "2.7\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Pada contoh ketiga dijelaskan penjumlahan dalam bentuk float, yaitu pendeklarasian decimal. Penggunaan float di tandai dengan adanya bilangan desimal."
+      ],
+      "metadata": {
+        "id": "76YtE35JW7kP"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#OPERATOR ARITMATIKA\n",
+        "\n",
+        "1. Penjumlahan = +\n",
+        "2. Pengurangan = -\n",
+        "3. Perkalian = *\n",
+        "4. Pembagian = /\n",
+        "5. Perpangkatan (eksponen) = **\n",
+        "6. Persen (modulus) = %"
+      ],
+      "metadata": {
+        "id": "20B47A1VXEnz"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "#Contoh Penjumlahan (+)\n",
+        "\n",
+        "a=15\n",
+        "b=5\n",
+        "c=a+b\n",
+        "print(c)\n",
+        "\n",
+        "\n",
+        "#Contoh Pengurangan (-)\n",
+        "\n",
+        "a=10\n",
+        "b=5\n",
+        "c=a-b\n",
+        "print(c)\n",
+        "\n",
+        "\n",
+        "#Contoh Perkalian (*)\n",
+        "\n",
+        "a=10\n",
+        "b=5\n",
+        "c=a*b\n",
+        "print(c)\n",
+        "\n",
+        "#Contoh Pembagian (/)\n",
+        "\n",
+        "a=5\n",
+        "b=10\n",
+        "c=a/b\n",
+        "print(c)\n",
+        "\n",
+        "#Contoh Perpangkatan/eksponen (**)\n",
+        "\n",
+        "a=7\n",
+        "b=4\n",
+        "c=a**b\n",
+        "print(c)\n",
+        "\n",
+        "\n",
+        "#Contoh Persen/modulus (%)\n",
+        "\n",
+        "a=14\n",
+        "b=2\n",
+        "c=a%b\n",
+        "\n",
+        "print(c)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Swbzw7EZXF32",
+        "outputId": "b57107f5-49a4-4b9a-9665-22a772817ab3"
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "20\n",
+            "5\n",
+            "50\n",
+            "0.5\n",
+            "2401\n",
+            "0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#OPERATOR PERBANDINGAN\n",
+        "\n",
+        "1. Lebih besar : >  (a>70 : 71-100)\n",
+        "2. Lebih kecil : <  (a<70 : 69-0)\n",
+        "3. Lebih besar sama dengan : >=  (a>=70 : 70-100)\n",
+        "4. Lebih kecil sama dengan : <=  (a<=70 : 70-0)\n",
+        "5. Tidak sama dengan : !=  (jelek!=bagus: true&false : ingkaran)\n",
+        "6. Sama dengan sama : == (bagus==bagus: true)"
+      ],
+      "metadata": {
+        "id": "T4baH0qPXX6-"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Contoh lebih besar (>)\n",
+        "\n",
+        "x=125\n",
+        "y=100\n",
+        "z=x>y\n",
+        "print(z)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "BUFsnBHzXfiK",
+        "outputId": "f0956d3c-0849-42bf-ee72-e6947ca14c0e"
+      },
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "True\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "- Difungsikan untuk mencari nilai yang lebih besar"
+      ],
+      "metadata": {
+        "id": "VFqqMmC_XkkG"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "#Contoh lebih kecil (<)\n",
+        "\n",
+        "x=58\n",
+        "y=78\n",
+        "z=x<y\n",
+        "print(z)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Ex4JB-thXlgq",
+        "outputId": "c372c736-9f0f-4050-b0b8-55d266ce6286"
+      },
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "True\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "- Di fungsikan untuk mencari nilai yang lebih kecil"
+      ],
+      "metadata": {
+        "id": "AdE2hl14XvPf"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Contoh tidak sama dengan (!=)\n",
+        "\n",
+        "x=\"ganteng\"\n",
+        "y=\"cantik\"\n",
+        "z=x!=y\n",
+        "print(z)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "93hHGUepXwGg",
+        "outputId": "05b5d10d-3a77-4c28-cf4a-8b6fe9512e4b"
+      },
+      "execution_count": 14,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "True\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "- Di fungsikan untuk menyatakan bahwasanya nilai antara sebelah kanan dan kiri berbeda/tidak sama."
+      ],
+      "metadata": {
+        "id": "Iv0573CDX_Dm"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "#Contoh sama dengan sama (==)\n",
+        "\n",
+        "x=\"ganteng\"\n",
+        "y=\"ganteng\"\n",
+        "z=x==y\n",
+        "print(z)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "7APbjwaxX_rk",
+        "outputId": "4de0eadb-21f0-4ab4-a461-f662371d418a"
+      },
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "True\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "- Di fungsikan untuk menyatakan bahwasanya nilai antara sebelah kanan dan kiri sama."
+      ],
+      "metadata": {
+        "id": "B2r6CK1jYDtl"
+      }
+    }
+  ]
+}
