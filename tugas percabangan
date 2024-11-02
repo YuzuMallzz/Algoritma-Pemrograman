@@ -1,0 +1,244 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyN27NkgKurNFWsWPbqrnMPJ",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/YuzuMallzz/Algoritma-Pemrograman/blob/main/tugas%20percabangan\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#Penentuan Diskon Berdasarkan Jumlah Pembelian"
+      ],
+      "metadata": {
+        "id": "0f8gHYZyhvil"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "jumlah_pembelian = float(input(\"Masukkan jumlah pembelian: \"))\n",
+        "\n",
+        "if jumlah_pembelian < 100000:\n",
+        "  print(\"Tidak dapat diskon\")\n",
+        "elif jumlah_pembelian >= 100000 and jumlah_pembelian < 500000:\n",
+        "  print(\"Diskon 10%\")\n",
+        "elif jumlah_pembelian >= 500000:\n",
+        "  print(\"Diskon 20%\")\n",
+        "else\n",
+        "  print(\"Diskon 20%\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "sVDVUApVh_84",
+        "outputId": "6aacff9e-1d1e-449e-d974-4c2b8c9f9774"
+      },
+      "execution_count": 16,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Masukkan jumlah pembelian: 99000\n",
+            "Tidak dapat diskon\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Klarifikasi Umur"
+      ],
+      "metadata": {
+        "id": "tGPg6t6huZ8o"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "umur =int (input(\"umur anda \"))\n",
+        "if umur <= 12 :\n",
+        "   print (\"anak anak\") #true\n",
+        "elif umur <= 17 :\n",
+        "   print (\"remaja\") #true\n",
+        "elif umur <= 50 :\n",
+        "   print (\"dewasa\") #true\n",
+        "else :\n",
+        "   print (\"lansia\") #true"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-Mfv8Mduoh1Q",
+        "outputId": "d0cc95ca-f132-4152-a40b-3b2106a2371d"
+      },
+      "execution_count": 17,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "umur anda 15\n",
+            "remaja\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Penilaian Nilai Siswa"
+      ],
+      "metadata": {
+        "id": "mp8VlxTruGL2"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nilai = int(input(\"Masukkan nilai anda \"))\n",
+        "\n",
+        "if nilai >= 90:\n",
+        "  print(\"sangat baik\") #true\n",
+        "elif nilai >= 70:\n",
+        "  print(\"baik\") #true&false\n",
+        "elif nilai >= 50:\n",
+        "  print(\"cukup\") #true&false\n",
+        "else:\n",
+        "  print(\"kurang tugas\") #true&false"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "avvGZUI7pjae",
+        "outputId": "5a633997-d8da-4d59-d5cd-be2f5bc3eb1b"
+      },
+      "execution_count": 18,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Masukkan nilai anda 88\n",
+            "baik\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Pengecekan Tahun Kabisat"
+      ],
+      "metadata": {
+        "id": "-ixP9jiKuiIA"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = int(input(\"masukan tahun: \"))\n",
+        "if a % 4 == 0:\n",
+        "    if a % 100 == 0:\n",
+        "        if a % 400 == 0:\n",
+        "            print(\"tahun kabisat\")\n",
+        "        else:\n",
+        "            print(\"bukan tahun kabisat\")\n",
+        "    else:\n",
+        "        print(\"tahun kabisat\")\n",
+        ""
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "i2gSSbF1rmSw",
+        "outputId": "03ee7d84-5b9e-4162-ce05-d7ce215afad8"
+      },
+      "execution_count": 24,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "masukan tahun: 21000\n",
+            "bukan tahun kabisat\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Kalkulator Sederhana"
+      ],
+      "metadata": {
+        "id": "uCgADWtruqlJ"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = int(input(\"Masukkan angka pertama: \"))\n",
+        "b = int(input(\"Masukkan angka kedua: \"))\n",
+        "c = input(\"Masukkan operasi: \")\n",
+        "if c == \"+\":\n",
+        "  print(a+b)\n",
+        "elif c == \"-\":\n",
+        "  print(a-b)\n",
+        "elif c == \"*\":\n",
+        "  print(a*b)\n",
+        "elif c == \"/\":\n",
+        "  print(a/b)\n",
+        "else:\n",
+        "  print(\"operasi tidak valid\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "DINdK20mu1q7",
+        "outputId": "825f596c-84ab-4a00-ea55-97cd25a0f9b1"
+      },
+      "execution_count": 26,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Masukkan angka pertama: 100\n",
+            "Masukkan angka kedua: 120\n",
+            "Masukkan operasi: *\n",
+            "12000\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
