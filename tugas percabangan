@@ -56,7 +56,7 @@
         "id": "sVDVUApVh_84",
         "outputId": "6aacff9e-1d1e-449e-d974-4c2b8c9f9774"
       },
-      "execution_count": 16,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -97,7 +97,7 @@
         "id": "-Mfv8Mduoh1Q",
         "outputId": "d0cc95ca-f132-4152-a40b-3b2106a2371d"
       },
-      "execution_count": 17,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -139,7 +139,7 @@
         "id": "avvGZUI7pjae",
         "outputId": "5a633997-d8da-4d59-d5cd-be2f5bc3eb1b"
       },
-      "execution_count": 18,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -171,8 +171,7 @@
         "        else:\n",
         "            print(\"bukan tahun kabisat\")\n",
         "    else:\n",
-        "        print(\"tahun kabisat\")\n",
-        ""
+        "        print(\"tahun kabisat\")\n"
       ],
       "metadata": {
         "colab": {
@@ -181,7 +180,7 @@
         "id": "i2gSSbF1rmSw",
         "outputId": "03ee7d84-5b9e-4162-ce05-d7ce215afad8"
       },
-      "execution_count": 24,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -226,7 +225,7 @@
         "id": "DINdK20mu1q7",
         "outputId": "825f596c-84ab-4a00-ea55-97cd25a0f9b1"
       },
-      "execution_count": 26,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
